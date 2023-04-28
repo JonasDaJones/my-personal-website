@@ -22,7 +22,6 @@ header {
 }
 
 .title {
-  border: 2px solid orange;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 35px;
@@ -31,16 +30,23 @@ header {
 
 h1 {
   border: 2px solid yellow;
+  min-width: max-content;
   padding: 2px;
   margin: 10px 1200px 10px auto;
+  align-self: self-end;
 }
 
 nav {
   border: 2px solid lightgreen;
+  display: flex;
+  flex-direction: row;
 }
-
+nav ul {
+  list-style: none;
+}
 nav a {
   text-decoration: none;
+  color: antiquewhite;
 }
 
 main {
