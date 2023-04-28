@@ -21,6 +21,11 @@ header {
   color: antiquewhite;
 }
 
+figure img {
+  border-radius: 50%;
+  box-shadow: 1px 1px 60px;
+}
+
 .title {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -33,20 +38,33 @@ h1 {
   min-width: max-content;
   padding: 2px;
   margin: 10px 1200px 10px auto;
-  align-self: self-end;
 }
 
 nav {
-  border: 2px solid lightgreen;
-  display: flex;
-  flex-direction: row;
+  margin-left: 50px;
+  align-self: flex-end;
 }
 nav ul {
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
+
 nav a {
   text-decoration: none;
   color: antiquewhite;
+  margin: 5px 15px;
+  border-radius: 10pc;
+  padding: 3px 10px;
+  background-color: rgb(114, 97, 115, 0.5);
+  box-shadow: 1px 1px 20px pink;
+  border: 2px solid rgb(114, 97, 115, 1);
+}
+
+nav a:hover {
+  color: black;
+  background-color: pink;
 }
 
 main {
